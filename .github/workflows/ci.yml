@@ -3,7 +3,7 @@ name: build
 on:
   push:
     branches:
-      - master
+      - main
     tags:
       - "v*"
   workflow_dispatch:
@@ -47,9 +47,9 @@ jobs:
           path: build/libs/*.jar
           if-no-files-found: error
 
-      # push master 时，发布 latest
+      # push main 时，发布 latest
       - name: delete old latest release
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         uses: dev-drprasad/delete-tag-and-release@v1.1
         continue-on-error: true
         with:
@@ -58,7 +58,7 @@ jobs:
           delete_release: true
 
       - name: publish latest release
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         uses: ncipollo/release-action@v1
         with:
           tag: latest
@@ -66,7 +66,7 @@ jobs:
           body: |
             自动构建版本
 
-            Branch: master
+            Branch: main
             Commit: ${{ github.sha }}
           artifacts: "build/libs/*.jar"
           allowUpdates: true
