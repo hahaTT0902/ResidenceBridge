@@ -22,10 +22,10 @@ ResidenceBridge 是一款 Bukkit/Paper 服务端插件，专为在 **Velocity / 
 它由两个部分组成，需要**同时部署**：
 
 
-| 组件 | 部署位置 | 仓库 |
+| 组件 | 部署位置 |
 |------|---------|------|
-| **ResidenceBridge**（本仓库） | 每台 Bukkit/Paper 子服 | 当前页面 |
-| **[ResidenceBridge-Velocity](https://github.com/hahaTT0902/ResidenceBridge-Velocity)** | Velocity 代理端 | 点击链接 |
+| **ResidenceBridge**（本仓库） | 每台 Bukkit/Paper 子服 |
+| **[ResidenceBridge-Velocity](https://github.com/hahaTT0902/ResidenceBridge-Velocity)** | Velocity 代理端 |
 
 两者通过共享的 **MySQL 数据库** 协作，实现：
 
