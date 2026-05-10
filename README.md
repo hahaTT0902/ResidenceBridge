@@ -1,6 +1,6 @@
 # ResidenceBridge
 
-Chinese version: [README_CN.md](README_CN.md)
+中文: [README_CN.md](README_CN.md)
 
 > Cross-server residence bridge plugin for sharing [Residence](https://www.spigotmc.org/resources/residence.11480/) data seamlessly across a Velocity / BungeeCord network
 
