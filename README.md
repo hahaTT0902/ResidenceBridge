@@ -3,7 +3,6 @@
 > 跨服领地桥接插件 —— 让 [Residence](https://www.spigotmc.org/resources/residence.11480/) 领地数据在 Velocity / BungeeCord 多服网络中无缝共享
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/hahaTT0902/ResidenceBridge/releases)
-[![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](LICENSE)
 [![Java](https://img.shields.io/badge/Java-8%2B-orange.svg)](https://adoptium.net)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.16%2B-brightgreen.svg)](https://papermc.io)
 
