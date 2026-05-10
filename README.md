@@ -21,7 +21,7 @@ ResidenceBridge is a Bukkit/Paper plugin designed for Minecraft server networks 
 The solution has two parts and **both must be deployed**:
 
 | Component | Deploy To |
-|------|---------|------|
+|------|---------|
 | **ResidenceBridge** (this repository) | Every Bukkit/Paper sub-server |
 | **[ResidenceBridge-Velocity](https://github.com/hahaTT0902/ResidenceBridge-Velocity)** | Velocity proxy |
 
