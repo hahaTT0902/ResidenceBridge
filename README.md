@@ -12,8 +12,12 @@
 ## 简介
 
 ResidenceBridge 是一款 Bukkit/Paper 服务端插件，专为在 **Velocity / BungeeCord** 代理网络中运行多个子服的 Minecraft 服务器设计。
+<img width="881" height="955" alt="image" src="https://github.com/user-attachments/assets/42127086-6d5e-419d-bdde-388a1b785ecf" />
+<img width="426" height="240" alt="5月10日(1)" src="https://github.com/user-attachments/assets/611465af-50ad-4bdb-9abc-2e1cb81c322d" />
+
 
 它由两个部分组成，需要**同时部署**：
+
 
 | 组件 | 部署位置 | 仓库 |
 |------|---------|------|
